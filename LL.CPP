@@ -8,12 +8,12 @@ struct node
   struct node* next;
 };
 struct node* head=NULL;
-void insert(int,int);
-void print();
-void del(int);
-void rev();
-void revrec(struct node*);
-void precf(struct node*);
+void insert(int,int); //insert element in list anywhere
+void print(); //print the list
+void del(int); //delete whatever element you want to delete
+void rev(); //reverses the list
+void revrec(struct node*); // reverses link list using recursion
+void precf(struct node*); //print using recursion
 void search(int);
 
 void main()
